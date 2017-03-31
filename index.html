@@ -278,8 +278,16 @@
   <!-- FlexSlider -->
   <script defer src="js/jquery.flexslider.js"></script>
 
+<script>
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
+<!-- 
   <script type="text/javascript">
-    $(function(){
+   $(function(){
       SyntaxHighlighter.all();
     });
     $(window).load(function(){
@@ -289,8 +297,8 @@
           $('body').removeClass('loading');
         }
       });
-    });
-  </script>
+    }); 
+  </script>-->
 
      <!-- </section>-->
 

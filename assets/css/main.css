@@ -3401,6 +3401,7 @@
 		}
 
 /* Banner */
+img{max-width: auto; height: auto;}
 
 	#banner {
 		/* Banner -moz-align-items: center?;
